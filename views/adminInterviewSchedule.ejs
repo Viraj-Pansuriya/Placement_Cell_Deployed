@@ -104,11 +104,11 @@
                   <form action="/adminUpdateInterviewSchedule/<%= record[i]._id%>" method="POST">
                     <td>
                       <label for="datepicker"></label>
-                      <input required type="date" id="datepicker" name="startDate" min="2023-04-11" max="2024-04-11" value="<%= new Date(record[i].startDate).toISOString().substring(0, 10) %>">
+                      <input required type="date" id="datepicker" name="startDate" min="2023-04-11" max="2026-04-11" value="<%= new Date(record[i].startDate).toISOString().substring(0, 10) %>">
         
                     </td>
                     <td>
-                      <input required type="date" id="datepicker" name="endDate" min="2023-04-11" max="2024-04-11" value="<%= new Date(record[i].endDate).toISOString().substring(0, 10) %>">
+                      <input required type="date" id="datepicker" name="endDate" min="2023-04-11" max="2026-04-11" value="<%= new Date(record[i].endDate).toISOString().substring(0, 10) %>">
         
                     </td>
                     <td> <button type="Submit"> Notify Students</button></td>
