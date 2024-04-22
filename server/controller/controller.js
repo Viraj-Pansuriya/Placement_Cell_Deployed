@@ -1016,7 +1016,7 @@ exports.sendMail = async (req, res) =>
                                 <br>
                                 <div><i>Wish you luck!</i></div>
                                 <br>
-                                <div>Please Do Not Respond back to this E-mail as this is Auto Generated E-mail, contact us at <b>jatinranpariya1510@gmail.com</b> in case of any doubt.</div>
+                                <div>Please Do Not Respond back to this E-mail as this is Auto Generated E-mail, contact us at <b>virajpansuriya777@gmail.com</b> in case of any doubt.</div>
                                 <br>
                                 <div>Regards,</div>
                                 <div>Placement Cell</div>`,
